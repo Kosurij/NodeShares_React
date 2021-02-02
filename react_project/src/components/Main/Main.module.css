@@ -1,0 +1,47 @@
+.main {
+    margin-top: 50px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.link {
+    text-decoration: none;
+    color: #2C2E37;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    font-size: 22px;
+
+    padding: 30px;
+    margin: 20px 10px;
+
+    border: 1px solid gray;
+    border-radius: 50px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+
+    text-align: center;
+    text-decoration: none;
+
+    transition: background-color .2s linear, color .2s linear, box-shadow .2s linear, border-color .2s linear;
+}
+
+.button:hover {
+    background-color: #2C2E37;
+    border-color: #2C2E37;
+    color: white;
+}
+
+.button:hover .link{
+    color: white;
+}

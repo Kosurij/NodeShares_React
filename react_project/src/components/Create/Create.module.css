@@ -1,0 +1,103 @@
+.wrapper {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.form {
+    width: 100%;
+    text-align: center;
+}
+
+.label {
+    display: inline-block;
+    color: #2C2E37;
+    font-weight: 700;
+    margin: 20px auto;
+}
+
+.text {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    min-height: 100px;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(112,112,112,0.3);
+    color: #2b2a2c;
+    outline: none;
+    resize: none;
+    }
+
+.text:focus {
+    border: 1px solid #61DAFB;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    font-size: 22px;
+
+    margin: 20px 10px;
+    padding: 10px;
+
+    border: 1px solid gray;
+    border-radius: 30px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+
+    text-align: center;
+    text-decoration: none;
+
+    transition: background-color .2s linear, color .2s linear, box-shadow .2s linear, border-color .2s linear;
+}
+
+.button:hover {
+    background-color: #2C2E37;
+    border-color: #2C2E37;
+    color: white;
+}
+
+.button:hover .link{
+    color: white;
+}
+
+.success {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.successMessage span{
+    font-weight: 700;
+    
+}
+
+.modal {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    position: fixed;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    z-index: 1000;
+    padding: 1rem;
+    background-color:white;
+    overflow: auto;
+}
+
+.dialog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    max-width: 1200px;
+    margin: auto;
+    background-color:white;
+    position: relative;
+}

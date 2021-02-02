@@ -1,0 +1,25 @@
+html {
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}

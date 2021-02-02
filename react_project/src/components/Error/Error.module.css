@@ -1,0 +1,14 @@
+.warn {
+    display: block;
+    margin: 200px auto;
+    width: 80%;
+    min-height: 100px;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(112,112,112,0.3);
+    background-color: #D1ECF1;
+    color: #2b2a2c;
+    text-align: center;
+    font-weight: 700;
+}

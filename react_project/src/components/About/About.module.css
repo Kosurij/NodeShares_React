@@ -1,0 +1,53 @@
+.about {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.about_left, 
+.about_right {
+    width: 50%;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header_item {
+    margin-top: 10px;
+}
+
+.text {
+    width: 90%;
+}
+
+.link {
+    text-decoration: none;
+    color: #2C2E37;
+}
+
+.button {
+    display: block;
+    width: 250px;
+    font-size: 22px;
+
+    margin: 100px auto;
+    padding: 10px;
+
+    border: 1px solid gray;
+    border-radius: 30px;
+    background: none;
+    outline: none;
+    cursor: pointer;
+
+    text-align: center;
+    text-decoration: none;
+
+    transition: background-color .2s linear, color .2s linear, box-shadow .2s linear, border-color .2s linear;
+}
+
+.button:hover {
+    background-color: #2C2E37;
+    border-color: #2C2E37;
+    color: white;
+}
